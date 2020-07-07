@@ -33,11 +33,23 @@ class _HomeState extends State<Home> {
         children: <Widget>[
           FloatingActionButton.extended(
             label: Text('Dark Mode'),
-            onPressed: null,
+            onPressed: () {
+              setState(() {
+                _bg = Colors.black;
+                _color = Colors.white;
+                _text = 'Dark mode!';
+              });
+            },
           ),
           FloatingActionButton.extended(
             label: Text('Light Mode'),
-            onPressed: null,
+            onPressed: () {
+              setState(() {
+                _bg = Colors.white;
+                _color = Colors.pink;
+                _text = 'Light mode!';
+              });
+            },
           ),
         ],
       ),
