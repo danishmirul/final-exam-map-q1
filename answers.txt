@@ -1,12 +1,15 @@
 Question (a):
-
+the application will not able to rebuild or update its UI. There will no update changes in it
 
 
 Question (b):
-
+Scaffold background which the color will change its properties color between white and black.
+In addition, the text which show the "Light mode!" and "Dark mode!" which will be updated and change accordingly.
+These widgets will need to rebuild their UI properties thus it will change its state according to the new properties.
 
 
 Question (c):
-
+Flutter use declarative approach where all of the widgets in flutter are immutable which can't change by it's own.
+To make an UI able to change in Flutter, it needs to be rebuild into a new widget which will be replace from the old one.
 
 
